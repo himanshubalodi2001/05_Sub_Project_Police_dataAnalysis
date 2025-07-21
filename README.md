@@ -1,79 +1,68 @@
-# 🚔 Police Data Analysis Project
+# 🚨 Police Data Analysis Project
 
-This project is part of a sub-module under data analysis practice. The goal is to analyze a dataset related to police stop-and-search operations and uncover insights using Python and data analysis techniques.
+This project focuses on analyzing police stop-and-search data to uncover meaningful insights about law enforcement patterns and behavior. The analysis is performed using Python in a Jupyter Notebook environment.
 
 ---
 
 ## 📁 Project Name
+
 `05_Sub_Project_Police_dataAnalysis`
 
 ---
 
-## 📊 Objective
+## 🎯 Objective
 
-To perform exploratory data analysis (EDA) on police-related data and extract actionable insights using Python libraries such as:
+To perform exploratory data analysis (EDA) on police dataset and answer key questions such as:
 
-- `Pandas` for data manipulation
-- `Matplotlib` and `Seaborn` for data visualization
-- `NumPy` for numerical operations
+- What types of violations are most common?
+- Do certain demographics get stopped more frequently?
+- What outcomes (e.g., arrests) are most likely, and under what conditions?
 
 ---
 
 ## 📂 Files Included
 
-- `Car_subProject_analysis.ipynb` – Jupyter Notebook containing all analysis and visualizations
-- `Car_datasets.csv` – CSV dataset used for analysis
+- `Police_datasets_Analyzing.ipynb` – Jupyter Notebook with all steps of analysis and visualizations.
+- `police_dataset.csv` – The raw dataset used for analysis.
 
 ---
 
-## 🧪 Key Analysis Done
+## 🔍 Key Steps in Analysis
 
-- Data Cleaning: Handling nulls, dropping unnecessary columns
-- Insight Generation: Patterns in stops based on gender, race, reason, etc.
-- Visualizations: Graphs that depict trends and summaries
-- Grouping & Aggregation: Used to summarize and compare key metrics
+- Data Cleaning:
+  - Removed null and irrelevant columns.
+  - Formatted data types for analysis.
+- Data Exploration:
+  - Analyzed patterns in gender, race, violation type, and search outcomes.
+  - Investigated stop durations and their relationship to violations.
+- Visualization:
+  - Used Matplotlib and Seaborn for plots such as bar charts, pie charts, and histograms.
 
 ---
 
-## 🛠️ Technologies Used
+## 📊 Technologies Used
 
 - Python 3
 - Jupyter Notebook
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
-- NumPy
 
 ---
 
-## 📌 How to Run
+## 📌 Sample Questions Answered
 
-1. Clone the repo or download the files.
-2. Open the `Car_subProject_analysis.ipynb` file in Jupyter Notebook.
-3. Run the cells to view the analysis and insights.
-
----
-
-## 📈 Sample Insights
-
-- What percentage of stops result in an arrest?
-- Are male drivers stopped more often than female drivers?
-- Does race or vehicle type impact the outcome?
+- Which violation occurs the most?
+- Does gender affect who gets searched?
+- What is the most common outcome after a stop?
+- What factors influence arrest or search decisions?
 
 ---
 
-## 👨‍💻 Author
+## 🚀 How to Run
 
-**Himanshu Balodi**  
-Follow me or check out more on my - https://github.com/himanshubalodi2001/
-
----
-
-## 📬 Contact
-
-For any queries or collaborations, feel free to DM or connect!
-
----
-
-## ⭐️ Don't forget to give a star if you liked this project!
-
+1. Clone/download this repository.
+2. Install required libraries if not already installed:
+   ```bash
+   pip install pandas numpy matplotlib seaborn
